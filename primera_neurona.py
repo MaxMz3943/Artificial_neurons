@@ -23,5 +23,5 @@ for i in range(10000):
     pesos += np.dot(X.T, ajustes) * tasa_aprendizaje
     bias += np.sum(ajustes) * tasa_aprendizaje
     
-print("Salida después del entrenamiento:")
+print("Output:")
 print(salida)
